@@ -5,7 +5,7 @@ contact:
   - icon: fa-male
     text: 性别：男
   - icon: fa-keyboard-o
-    text: 工作年限：6年
+    text: 工作年限：8年
   - icon: fa-envelope
     text: 邮箱：740887220@qq.com
   - icon: fa-phone-square
@@ -15,7 +15,7 @@ skills:
     items: 
       - 熟悉HTML+CSS页面布局，HTML5、CSS3新特性；
       - 熟悉移动端适配，弹性布局，浏览器兼容问题解决方案；
-      - 熟悉react技术栈,有webpack + react + Redux的项目开发经验；
+      - 熟悉react/vue技术栈,都有较多的项目经验，了解angular，有一定项目开发经验；
       - 熟悉lighthouse，实现过基于lighthouse源码+百度radar+puppeteer的CLI工具；
       - 熟悉nodejs, 使用过koa2, 了解mongodb、mongoose.js
       - 熟悉前端工程化，参与过前端工程化建设
@@ -26,6 +26,8 @@ skills:
       - 了解GraphQL, apollo-server使用；
   - title: "业务技能"
     items: 
+      - 熟悉grafana、clickvisual等开源项目，并基于开源项目做过二次开发
+      - 熟悉可观测性的相关业务知识
       - 熟悉移动端网页和hybrid开发、用户增长前端技术栈、universalLink，scheme、口令调起app技术
       - 熟悉微信小程序开发
   - title: "用户体验"
@@ -37,6 +39,14 @@ skills:
       - 熟练掌握git,SourceTree代码管理工具
       - 熟悉charles、fidder、chrome inspect常用抓包工具
 experience:
+  - title: "前端研发工程师"
+    duration: "2022.2至今"
+    company: "书行科技科技有限公司"
+    description: 
+      - 负责数据平台ab实验平台开发
+      - 负责基础技术体系的前端研发工作
+      - 负责可观测体系在端上的领域建设
+      - 负责项目的技术架构设计与实现，持续优化产品与技术
   - title: "高级研发工程师（T5）"
     duration: "2018.12至2021.11"
     company: "百度网讯科技有限公司"
@@ -59,7 +69,51 @@ experience:
       - 与设计和产品团队进行沟通，开发时尚新颖、高可用性的产品
       - 负责现有项目和新项目的前端修改调试和开发工作
       - 负责产品HTML5、CSS3的编写，插件编写，解决web端和移动端适配问题，同时进行代码优化等
+
+componeyGroup:
+  - name: 自研大盘技术专利（初稿合格）
+  - name: 小红书黑客马拉松提名奖
+  - name: '百度TC JavaScript Good Coder'
+  - name: '音磁夏季赛专项'
+  - name: '百度2021职级晋升'
+
 projects:
+  - name: "可视化大盘"
+    description: "在保证不降低grafana图表用户体验的情况下，实现业务定制化大盘"
+    contribution: "前端负责人"
+    detail: 
+      - 1、基于grafana源码和技术栈二次开发，能够合理取舍功能，理解grafan架构设计和核心模块原理
+      - 2、将react技术栈转为vue技术栈，并保证质量和研发效率
+      - 3、优化渲染页面性能，保证用户体验
+      - 4、设计落地微前端方案集成到现有系统
+    own: 
+      - 1、整体项目技术详细设计和架构
+      - 2、核心模块的开发工作
+      - 3、项目需求管理和进度跟进
+      - 4、技术沉淀总结分享和专利编写
+      - 5、卡点问题兜底和技术支持
+  - name: "日志"
+    description: "搭建自研通用日志平台"
+    contribution: "前端负责人"
+    detail: 
+      - 1、基于clickvisual开源项目二次开发，理解源码并在基础上增加定制化功能
+      - 2、保证页面稳定性的基础上，优化日志渲染效率，保证定制化功能和流畅体验
+      - 3、性能优化，通过react新版feature和其他手段，优化页面性能指标
+    own: 
+      - 1、整体项目技术详细设计和架构
+      - 2、需求排期和进度跟踪
+      - 3、卡点问题兜底和技术支持
+  - name: "ab实验平台"
+    description: "通过小流量随机实验，使得业务人员可以以较小的风险对新feature进行评估，积极试错积累经验，并且给出定量定性分析"
+    contribution: "前端负责人"
+    detail: 
+      - 1、页面性能优化，提高页面/组件渲染速度
+      - 2、页面代码使用Vue3技术栈优化代码组织形式
+    own: 
+      - 1、整体项目技术详细设计和架构
+      - 2、项目需求管理和任务分工
+      - 3、保证项目开发进度和整体逻辑开发
+      - 4、负责推进落实UBA埋点数据，为产品迭代赋能
   - name: "前端上线准入机制（技术项目、独立开发）"
     description: "依托线下环境测量基准，检测页面存在的性能问题，辅助研发人员排查和修复性能问题，保证线上页面质量；主要模块：CLI工具、检测数据回溯平台、持续集成流水线插件、docker镜像环境"
     contribution: "前端负责人"
@@ -189,10 +243,6 @@ projects:
       - 1、负责各个页面的排版与样式，与设计师能够完美的配合
       - 2、负责react技术栈架构的开发与拓展，合理组织代码结构
       - 3、负责所有接口的调试与后期的维护
-componeyGroup:
-  - name: '百度TC JavaScript Good Coder'
-  - name: '音磁夏季赛专项'
-  - name: '百度2021职级晋升'
 componeyGroup2:
   - name: 'tinypng cli：https://github.com/HandsomeBrother/tiny-img-cli'
   - name: '叠箱子H5游戏：https://github.com/HandsomeBrother/pileupBoxes'
