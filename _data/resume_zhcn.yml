@@ -71,11 +71,12 @@ experience:
       - 负责产品HTML5、CSS3的编写，插件编写，解决web端和移动端适配问题，同时进行代码优化等
 
 componeyGroup:
-  - name: 自研大盘技术专利（初稿合格）
-  - name: 小红书黑客马拉松提名奖
-  - name: '百度TC JavaScript Good Coder'
-  - name: '音磁夏季赛专项'
-  - name: '百度2021职级晋升'
+  - name: 专利【一种组件集成方法、装置、计算机设备及介质】
+    link: 公开号：CN118132045A
+    linkUrl: https://patents.qizhidao.com/search/simple-result?from=simple&searchBtntype=searchBtn&searchType=simple_search&businessSource=PC%E6%9F%A5%E4%B8%93%E5%88%A9&statement=CN118132045A&current=1
+  - name: 小红书-黑客马拉松提名奖
+  - name: '百度-音磁夏季赛专项'
+  - name: '百度-2021职级晋升'
 
 projects:
   - name: "可视化大盘"

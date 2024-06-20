@@ -76,7 +76,19 @@ layout: default
         </div>
         <div class="section-content">
           {% for componey in site.data.resume_zhcn.componeyGroup %}
-          <p class="block-title">{{ componey.name }}</p>
+          <p class="block-title">
+            {{ componey.name }}
+            {% if componey.linkUrl %}
+              <a href="{{ componey.linkUrl }}" 
+                style="
+                  display:inline;font-size: 12px;
+                  color: cadetblue; white-space: nowrap;
+                  position: absolute;top: 50%;transform: translateY(-50%);" 
+                  target="_blank"
+                  >{{componey.link}}</a>
+            {% endif %}
+          </p>
+
           {% endfor %}
         </div>
       </section>

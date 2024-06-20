@@ -121,7 +121,8 @@ section {
 .block-title {
   font-size: 1.2rem;
   margin-bottom: .4rem;
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative; }
 
 .block-subtitle {
   font-size: 1rem;
